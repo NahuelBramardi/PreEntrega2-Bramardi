@@ -286,9 +286,44 @@ p {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
 }
-
 .asia {
     background-image: url(../img/bandera-japon-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.sinsal {
+    background-image: url(../img/sinsal-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.sintacc {
+    background-image: url(../img/fondo-sintacc.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.saludables {
+    background-image: url(../img/fondo-saludable.jpg);
     background-color: rgb(29, 29, 29);
     background-blend-mode: soft-light;
     background-position: center center;
