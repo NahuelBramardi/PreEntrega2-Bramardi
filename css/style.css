@@ -249,3 +249,52 @@ p {
     background-position: center;
     display: flex;
 }
+
+
+.argentina {
+    background-image: url(../img/bandera-arg-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.mexico {
+    background-image: url(../img/bandera-mexico-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.españa {
+    background-image: url(../img/bandera-esp-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.asia {
+    background-image: url(../img/bandera-japon-fondo.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
