@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/fondooos2.jpg);
+    background-color: rgb(29, 29, 29);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+header {
+    border-top: solid 5px sandybrown;
+    border-bottom: solid 5px sandybrown;
+}
+
+.miLogo {
+    width: 150px;
+}
+
+.fondoNav {
+    background-color: black;
+}
+
+.btn {
+    background-color: white;
+}
+
+.color {
+    color: sandybrown;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a {
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.titulo {
+    background-color: sandybrown;
+    color: orangered;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: sandybrown;
+    color: orangered;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+p {
+    background-color: bisque;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexPadre {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hijoFlex {
+    width: 350px;
+    max-width: 400px;
+    margin: 10px;
+    background-color: black; 
+    padding: 8px; 
+}
+
+.hijoFlex2 {
+    width: 350px;
+    max-width: 400px;
+    margin: 10px;
+    background-color: black;
+    padding: 8px;
+}
+
+.comen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botones {
+    border: 0px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.mapa {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.receee {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 55px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: black;
+    border-top: solid 5px sandybrown;
+    border-bottom: solid 5px sandybrown;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a img {
+    width: 70px;
+}
+
+.social-icons a:hover {
+    color: #0077B5;
+}
+
+.ulRecetas {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.liRecetas {
+    width: calc(33.33% - 20px); 
+    margin: 118px;
+    padding: 118px;
+    border: 3px solid #ccc;
+    background-color: black;
+    text-align: center;
+}
+
+.fondoR {
+    background-image: url(../img/alimentos-saludables.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoRe {
+    background-image: url(../img/logo-sin-tacc.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoRec {
+    background-image: url(../img/sin\ sal.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoRece {
+    background-image: url(../img/bandera-argentina.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoRecet {
+    background-image: url(../img/bandera-mexicana.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoReceta {
+    background-image: url(../img/bandera-españa.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.fondoRecetas {
+    background-image: url(../img/bandera-japon.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
